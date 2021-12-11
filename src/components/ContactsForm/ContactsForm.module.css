@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .inputTitle {
+    margin-bottom: 10px;
+  }
+  
+  .inputField {
+    background-color: ivory;
+    margin-left: 10px;
+    outline: none;
+  }
+  
+  .inputField:hover,
+  .inputField:focus {
+    background-color: antiquewhite;
+  }
+  
+  .addContactBtn {
+    height: 30px;
+    border:none;
+    outline: none;
+    background-color: ivory;
+    border-radius: 50px;
+    padding: 0 20px;
+  }
+  .addContactBtn:hover {
+    background-color:antiquewhite;
+
+  }

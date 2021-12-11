@@ -1,0 +1,17 @@
+.filterTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .filterInput {
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: ivory;
+  }
+  
+  .filterInput:hover,
+  .filterInput:focus {
+    background-color: antiquewhite;
+  }

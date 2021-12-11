@@ -1,0 +1,38 @@
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  }
+  
+  .contactsName {
+    font-size: large;
+    font-weight: bold;
+    
+  }
+  
+  .contactsNumber {
+    font-size: larger;
+    font-weight: normal;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+  
+  .delBtn {
+    height: 30px;
+    border:none;
+    outline: none;
+    background-color: ivory;
+    border-radius: 50px;
+    padding: 0 20px;
+  }
+  .delBtn:hover {
+    background-color:antiquewhite;
+  }
+
+  .emptyTitle{
+    text-align: center;
+    font-size: 27px;
+    background-color: rgb(228, 119, 119);
+  }
